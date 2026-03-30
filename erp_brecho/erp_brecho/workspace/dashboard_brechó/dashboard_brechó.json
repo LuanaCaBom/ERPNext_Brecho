@@ -1,0 +1,136 @@
+{
+ "charts": [
+  {
+   "chart_name": "Vendas do M\u00eas",
+   "label": "Vendas do M\u00eas"
+  },
+  {
+   "chart_name": "Itens Mais Vendidos",
+   "label": "Itens Mais Vendidos"
+  },
+  {
+   "chart_name": "Clientes Ativos",
+   "label": "Clientes Ativos"
+  },
+  {
+   "chart_name": "Vendas por Categoria",
+   "label": "Vendas por Categoria"
+  },
+  {
+   "chart_name": "Itens por Origem",
+   "label": "Itens por Origem"
+  }
+ ],
+ "content": "[{\"id\":\"40emC8Rrve\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Dashboard Brech\u00f3</span>\",\"col\":12}},{\"id\":\"UBALhe-Uv2\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Vendas por Categoria\",\"col\":6}},{\"id\":\"bmvslGSL-I\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Vendas do M\u00eas\",\"col\":6}},{\"id\":\"Utr4xBywxW\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Itens por Origem\",\"col\":6}},{\"id\":\"TA0NKeyIb3\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Clientes Ativos\",\"col\":6}},{\"id\":\"qN2E36VOwK\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Itens Mais Vendidos\",\"col\":12}},{\"id\":\"MJorhWsBfX\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Itens em Estoque\",\"col\":3}},{\"id\":\"siuEkMoKp7\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total de Clientes\",\"col\":3}},{\"id\":\"yF9Jqz7vnY\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"wOecq_kvFQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Novo Item\",\"col\":3}},{\"id\":\"NAwh_l_3vk\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Entrada de Estoque\",\"col\":3}},{\"id\":\"bXQEWaxqJx\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Novo Cliente\",\"col\":3}},{\"id\":\"wSVJyuiqho\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Nova Venda\",\"col\":3}},{\"id\":\"iORz2_DdgF\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Comiss\u00f5es a Pagar\",\"col\":3}},{\"id\":\"rIrhIv2SoJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Ver Cat\u00e1logo Web\",\"col\":3}},{\"id\":\"W4xA6XT2QO\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Registrar Despesa\",\"col\":3}},{\"id\":\"CHE1xQUu6O\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Registrar Reparo\",\"col\":3}}]",
+ "creation": "2026-03-05 07:47:10.282921",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "dashboard",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Dashboard Brech\u00f3",
+ "links": [],
+ "modified": "2026-03-29 21:23:47.454045",
+ "modified_by": "Administrator",
+ "module": "Erp Brecho",
+ "name": "Dashboard Brech\u00f3",
+ "number_cards": [
+  {
+   "label": "Total de Clientes",
+   "number_card_name": "Total de Clientes"
+  },
+  {
+   "label": "Itens em Estoque",
+   "number_card_name": "Itens em Estoque"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Gerente"
+  },
+  {
+   "role": "Caixa"
+  },
+  {
+   "role": "Funcion\u00e1rio"
+  },
+  {
+   "role": "Administrator"
+  }
+ ],
+ "sequence_id": 24.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Registrar Despesa",
+   "link_to": "Despesa do Brecho",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Registrar Reparo",
+   "link_to": "Ordem de Reparo",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "New",
+   "label": "Novo Item",
+   "link_to": "Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "New",
+   "label": "Nova Venda",
+   "link_to": "point-of-sale",
+   "stats_filter": "[]",
+   "type": "Page"
+  },
+  {
+   "color": "Pink",
+   "doc_view": "New",
+   "label": "Entrada de Estoque",
+   "link_to": "Stock Entry",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "New",
+   "label": "Novo Cliente",
+   "link_to": "Customer",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Comiss\u00f5es a Pagar",
+   "link_to": "Comiss\u00f5es a Pagar",
+   "report_ref_doctype": "POS Invoice",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Ver Cat\u00e1logo Web",
+   "type": "URL",
+   "url": "/catalogo"
+  }
+ ],
+ "title": "Dashboard Brech\u00f3"
+}

@@ -1,0 +1,13 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Item",
+  "enabled": 1,
+  "modified": "2026-03-29 21:18:58.838641",
+  "module": "Erp Brecho",
+  "name": "Automação de Etiquetas",
+  "script": "frappe.ui.form.on('Item', {\n    refresh: function(frm) {\n        if (!frm.is_new() && frm.doc.has_serial_no) {\n            frm.add_custom_button(__('Imprimir Etiqueta'), function() {\n                // Gerar etiqueta\n                let etiqueta = `\n                    <div style=\"width: 5cm; padding: 10px; border: 1px solid black; font-family: Arial;\">\n                        <h3 style=\"margin: 0;\">${frm.doc.item_name}</h3>\n                        <p style=\"margin: 5px 0;\">Código: ${frm.doc.item_code}</p>\n                        <p style=\"margin: 5px 0;\">Tamanho: ${frm.doc.tamanho || '-'}</p>\n                        <p style=\"margin: 5px 0;\">Cor: ${frm.doc.cor_principal || '-'}</p>\n                        <h2 style=\"margin: 10px 0;\">R$ ${frm.doc.standard_rate.toFixed(2)}</h2>\n                    </div>\n                `;\n                \n                // Abrir em nova janela para impressão\n                let win = window.open('', 'Etiqueta', 'width=400,height=300');\n                win.document.write(etiqueta);\n                win.print();\n            });\n        }\n    }\n});",
+  "view": "Form"
+ }
+]

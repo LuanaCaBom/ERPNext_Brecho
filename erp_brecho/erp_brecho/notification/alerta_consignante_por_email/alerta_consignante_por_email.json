@@ -1,0 +1,31 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "doc.customer_group == \"Consignante\"",
+ "creation": "2026-02-24 08:30:20.789080",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Customer",
+ "enabled": 1,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "\n<div style=\"padding: 20px; font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; border: 1px solid #e0e0e0; border-radius: 5px;\">\n    <div style=\"background-color: #4CAF50; padding: 15px; border-radius: 5px 5px 0 0;\">\n        <h2 style=\"color: white; margin: 0;\"> Novo Consignante Cadastrado</h2>\n    </div>\n    \n    <div style=\"padding: 20px;\">\n        <p style=\"font-size: 16px;\">Um novo consignante foi cadastrado no sistema:</p>\n        \n        <table style=\"width: 100%; border-collapse: collapse; margin: 20px 0;\">\n            <tr>\n                <td style=\"padding: 10px; background-color: #f5f5f5; width: 120px;\"><strong>Nome:</strong></td>\n                <td style=\"padding: 10px; border-bottom: 1px solid #e0e0e0;\">{{ doc.customer_name }}</td>\n            </tr>\n            <tr>\n                <td style=\"padding: 10px; background-color: #f5f5f5;\"><strong>Email:</strong></td>\n                <td style=\"padding: 10px; border-bottom: 1px solid #e0e0e0;\">{{ doc.email_id or \"N\u00e3o informado\" }}</td>\n            </tr>\n            <tr>\n                <td style=\"padding: 10px; background-color: #f5f5f5;\"><strong>Telefone:</strong></td>\n                <td style=\"padding: 10px; border-bottom: 1px solid #e0e0e0;\">{{ doc.mobile_no or \"N\u00e3o informado\" }}</td>\n            </tr>\n            <tr>\n                <td style=\"padding: 10px; background-color: #f5f5f5;\"><strong>Grupo:</strong></td>\n                <td style=\"padding: 10px; border-bottom: 1px solid #e0e0e0;\">{{ doc.customer_group }}</td>\n            </tr>\n        </table>\n        \n        <p style=\"margin-top: 20px;\">\n            <a href=\"/app/customer/{{ doc.name }}\" style=\"background-color: #4CAF50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 3px; display: inline-block;\">\ud83d\udd0d Ver Detalhes no Sistema</a>\n        </p>\n        \n        <p style=\"color: #666; font-size: 12px; margin-top: 30px;\">\n            Este \u00e9 um email autom\u00e1tico do sistema ERPNext - Brech\u00f3 Estilo \u00danico\n        </p>\n    </div>\n</div>\n",
+ "message_type": "Markdown",
+ "modified": "2026-03-29 21:10:20.927403",
+ "modified_by": "Administrator",
+ "module": "Erp Brecho",
+ "name": "Alerta Consignante por Email",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "cc": "luacabom@gmail.com"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "sender": "Luacabom",
+ "sender_email": "luacabom@gmail.com",
+ "subject": "Novo Consignante Cadastrado: {{ doc.customer_name }}"
+}

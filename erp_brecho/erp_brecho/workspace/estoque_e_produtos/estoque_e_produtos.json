@@ -1,0 +1,276 @@
+{
+ "charts": [
+  {
+   "chart_name": "Itens por Categoria",
+   "label": "Itens por Categoria"
+  }
+ ],
+ "content": "[{\"id\":\"9A757S7e1G\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Estoque e Produtos</span>\",\"col\":12}},{\"id\":\"e147gmdaVw\",\"type\":\"card\",\"data\":{\"card_name\":\"Produtos\",\"col\":3}},{\"id\":\"-77GeS2Rzi\",\"type\":\"card\",\"data\":{\"card_name\":\"Movimenta\u00e7\u00e3o\",\"col\":3}},{\"id\":\"uMhWazvsbF\",\"type\":\"card\",\"data\":{\"card_name\":\"Configura\u00e7\u00f5es\",\"col\":3}},{\"id\":\"t8T5uumza-\",\"type\":\"card\",\"data\":{\"card_name\":\"Relat\u00f3rios\",\"col\":3}},{\"id\":\"udV6osTmKo\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Itens por Categoria\",\"col\":12}},{\"id\":\"bTi9SrS395\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"sayIkII68v\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Novo Item\",\"col\":3}},{\"id\":\"6zzLUw4GsF\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Entrada de Estoque\",\"col\":3}},{\"id\":\"FDE4IKkrGW\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Lista de Itens\",\"col\":3}},{\"id\":\"WUmFG6iDSA\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Valor Total em Estoque\",\"col\":3}}]",
+ "creation": "2026-03-05 09:17:16.653163",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "stock",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Estoque e Produtos",
+ "links": [
+  {
+   "description": "Ao criar um item sempre coloque o valor no Standard Selling Rate de prefer\u00eancia.",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Produtos",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Item",
+   "link_count": 0,
+   "link_to": "Item",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Grupo do Item",
+   "link_count": 0,
+   "link_to": "Item Group",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Pre\u00e7o do Item",
+   "link_count": 0,
+   "link_to": "Item Price",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lista de Pre\u00e7os",
+   "link_count": 0,
+   "link_to": "Price List",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Serial ",
+   "link_count": 0,
+   "link_to": "Serial No",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "description": "No Stock Entry \u00e9 preciso ter um Serial No para ser registrado ao desativar a op\u00e7\u00e3o Use Serial No / Batch Fields e criar um Serial and Batch Bundle, nesse, com o Serial No j\u00e1 criado fica mais r\u00e1pido o precesso de cria\u00e7\u00e3o.",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Movimenta\u00e7\u00e3o",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Entrada Estoque",
+   "link_count": 0,
+   "link_to": "Stock Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reconcilia\u00e7\u00e3o de Estoque",
+   "link_count": 0,
+   "link_to": "Stock Reconciliation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Nota de Entrega",
+   "link_count": 0,
+   "link_to": "Delivery Note",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Configura\u00e7\u00f5es",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Armaz\u00e9m",
+   "link_count": 0,
+   "link_to": "Warehouse",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Unidade de Medida",
+   "link_count": 0,
+   "link_to": "UOM",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Configura\u00e7\u00f5es Vendas",
+   "link_count": 0,
+   "link_to": "Selling Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Configura\u00e7\u00f5es Estoque",
+   "link_count": 0,
+   "link_to": "Stock Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Relat\u00f3rios",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Saldo de Estoque",
+   "link_count": 0,
+   "link_to": "Stock Balance",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Raz\u00e3o de Estoque",
+   "link_count": 0,
+   "link_to": "Stock Ledger",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Resumo Total do Estoque",
+   "link_count": 0,
+   "link_to": "Total Stock Summary",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Estoque por Categoria",
+   "link_count": 0,
+   "link_to": "Estoque por Categoria",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-03-29 21:23:39.642377",
+ "modified_by": "Administrator",
+ "module": "Erp Brecho",
+ "name": "Estoque e Produtos",
+ "number_cards": [
+  {
+   "label": "Valor Total em Estoque",
+   "number_card_name": "Valor Total em Estoque"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Gerente"
+  },
+  {
+   "role": "Caixa"
+  },
+  {
+   "role": "Funcion\u00e1rio"
+  },
+  {
+   "role": "Administrator"
+  }
+ ],
+ "sequence_id": 26.0,
+ "shortcuts": [
+  {
+   "color": "Orange",
+   "doc_view": "New",
+   "label": "Novo Item",
+   "link_to": "Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "New",
+   "label": "Entrada de Estoque",
+   "link_to": "Stock Entry",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Lista de Itens",
+   "link_to": "Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Estoque e Produtos"
+}

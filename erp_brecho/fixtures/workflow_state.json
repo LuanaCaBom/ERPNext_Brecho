@@ -1,0 +1,65 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "question-sign",
+  "modified": "2025-08-27 04:35:06.659231",
+  "name": "Pending",
+  "style": "",
+  "workflow_state_name": "Pending"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "ok-sign",
+  "modified": "2025-08-27 04:35:06.661939",
+  "name": "Approved",
+  "style": "Success",
+  "workflow_state_name": "Approved"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-02-23 07:33:37.463887",
+  "name": "Aprovado",
+  "style": "",
+  "workflow_state_name": "Aprovado"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-02-23 07:34:23.359103",
+  "name": "Rascunho",
+  "style": "",
+  "workflow_state_name": "Rascunho"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-02-23 07:35:35.477531",
+  "name": "Rejeitado",
+  "style": "",
+  "workflow_state_name": "Rejeitado"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "remove",
+  "modified": "2025-08-27 04:35:06.664804",
+  "name": "Rejected",
+  "style": "Danger",
+  "workflow_state_name": "Rejected"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-02-23 07:51:18.774351",
+  "name": "Aguardando Aprovação",
+  "style": "Warning",
+  "workflow_state_name": "Aguardando Aprovação"
+ }
+]

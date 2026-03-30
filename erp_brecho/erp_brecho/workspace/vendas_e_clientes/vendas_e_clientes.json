@@ -1,0 +1,235 @@
+{
+ "charts": [
+  {
+   "chart_name": "Top 10 Clientes",
+   "label": "Top 10 Clientes"
+  }
+ ],
+ "content": "[{\"id\":\"gaYjey3v_F\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Vendas e Clientes</span>\",\"col\":12}},{\"id\":\"4bx8rTxLFg\",\"type\":\"card\",\"data\":{\"card_name\":\"Vendas\",\"col\":4}},{\"id\":\"F0ULjohp2F\",\"type\":\"card\",\"data\":{\"card_name\":\"Clientes\",\"col\":4}},{\"id\":\"8vhv-ZhEea\",\"type\":\"card\",\"data\":{\"card_name\":\"Relat\u00f3rios\",\"col\":4}},{\"id\":\"WrHtUYqvyp\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Top 10 Clientes\",\"col\":12}},{\"id\":\"oUtvbkha6p\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"V7V5LZhn-4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Ticket M\u00e9dio\",\"col\":3}},{\"id\":\"ilTQcOnQPP\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Despesas\",\"col\":4}},{\"id\":\"bGq2MzP5km\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"TdyYPJPolT\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Nova Venda\",\"col\":3}},{\"id\":\"CgiWY7YaSq\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Registrar Despesa\",\"col\":3}},{\"id\":\"xcclpy3kIE\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Ver Despesas\",\"col\":3}},{\"id\":\"FZNt6dO2BP\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Novo Cliente\",\"col\":3}},{\"id\":\"MDUt8YrM5B\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Lista de Clientes\",\"col\":3}}]",
+ "creation": "2026-03-05 08:48:11.716379",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "assets",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Vendas e Clientes",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Vendas",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Perfil de Vendas",
+   "link_count": 0,
+   "link_to": "POS Profile",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Vendas",
+   "link_count": 0,
+   "link_to": "POS Invoice",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Pedido de Venda",
+   "link_count": 0,
+   "link_to": "Sales Order",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Cota\u00e7\u00e3o",
+   "link_count": 0,
+   "link_to": "Quotation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Nota de Entrega",
+   "link_count": 0,
+   "link_to": "Delivery Note",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Clientes",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Clientes",
+   "link_count": 0,
+   "link_to": "Customer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Grupo do Cliente",
+   "link_count": 0,
+   "link_to": "Customer Group",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Contato",
+   "link_count": 0,
+   "link_to": "Contact",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Endere\u00e7o",
+   "link_count": 0,
+   "link_to": "Address",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Relat\u00f3rios",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "An\u00e1lise de vendas",
+   "link_count": 0,
+   "link_to": "Sales Analytics",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Resumo Raz\u00e3o de Clientes",
+   "link_count": 0,
+   "link_to": "Customer Ledger Summary",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-03-29 21:24:02.679146",
+ "modified_by": "Administrator",
+ "module": "Erp Brecho",
+ "name": "Vendas e Clientes",
+ "number_cards": [
+  {
+   "label": "Despesas",
+   "number_card_name": "Despesas"
+  },
+  {
+   "label": "Ticket M\u00e9dio",
+   "number_card_name": "Ticket M\u00e9dio"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Gerente"
+  },
+  {
+   "role": "Caixa"
+  },
+  {
+   "role": "Funcion\u00e1rio"
+  },
+  {
+   "role": "Administrator"
+  }
+ ],
+ "sequence_id": 25.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Registrar Despesa",
+   "link_to": "Despesa do Brecho",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "New",
+   "label": "Nova Venda",
+   "link_to": "point-of-sale",
+   "stats_filter": "[]",
+   "type": "Page"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Ver Despesas",
+   "link_to": "Despesa do Brecho",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "New",
+   "label": "Novo Cliente",
+   "link_to": "Customer",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "Lista de Clientes",
+   "link_to": "Customer",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Vendas e Clientes"
+}

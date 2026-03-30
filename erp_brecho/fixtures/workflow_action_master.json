@@ -1,0 +1,58 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-27 04:38:05.909954",
+  "name": "Approve",
+  "workflow_action_name": "Approve"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-27 04:38:05.912482",
+  "name": "Reject",
+  "workflow_action_name": "Reject"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-27 04:38:05.916582",
+  "name": "Review",
+  "workflow_action_name": "Review"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-02-23 07:32:17.092283",
+  "name": "Aguardando Aprovação",
+  "workflow_action_name": "Aguardando Aprovação"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-02-23 07:32:40.426606",
+  "name": "Solicitar Aprovação",
+  "workflow_action_name": "Solicitar Aprovação"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-02-23 07:33:29.547637",
+  "name": "Aprovar",
+  "workflow_action_name": "Aprovar"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-02-23 07:35:23.120091",
+  "name": "Rejeitar",
+  "workflow_action_name": "Rejeitar"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-02-23 07:36:03.943093",
+  "name": "Cancelar",
+  "workflow_action_name": "Cancelar"
+ }
+]

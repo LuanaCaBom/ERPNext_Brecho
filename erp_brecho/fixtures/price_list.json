@@ -1,0 +1,62 @@
+[
+ {
+  "buying": 0,
+  "countries": [
+   {
+    "country": "Brazil",
+    "parent": "Preço Atacado",
+    "parentfield": "countries",
+    "parenttype": "Price List"
+   }
+  ],
+  "currency": "BRL",
+  "docstatus": 0,
+  "doctype": "Price List",
+  "enabled": 1,
+  "modified": "2026-02-09 09:59:45.146275",
+  "name": "Preço Atacado",
+  "price_list_name": "Preço Atacado",
+  "price_not_uom_dependent": 0,
+  "selling": 1
+ },
+ {
+  "buying": 0,
+  "countries": [
+   {
+    "country": "Brazil",
+    "parent": "Promoção",
+    "parentfield": "countries",
+    "parenttype": "Price List"
+   }
+  ],
+  "currency": "BRL",
+  "docstatus": 0,
+  "doctype": "Price List",
+  "enabled": 1,
+  "modified": "2026-02-09 10:00:41.065473",
+  "name": "Promoção",
+  "price_list_name": "Promoção",
+  "price_not_uom_dependent": 0,
+  "selling": 1
+ },
+ {
+  "buying": 0,
+  "countries": [
+   {
+    "country": "Brazil",
+    "parent": "Preço Varejo",
+    "parentfield": "countries",
+    "parenttype": "Price List"
+   }
+  ],
+  "currency": "BRL",
+  "docstatus": 0,
+  "doctype": "Price List",
+  "enabled": 1,
+  "modified": "2026-02-09 09:52:18.684826",
+  "name": "Preço Varejo",
+  "price_list_name": "Preço Varejo",
+  "price_not_uom_dependent": 1,
+  "selling": 1
+ }
+]

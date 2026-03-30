@@ -1,0 +1,33 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "doc.custom_dias_em_estoque > 90",
+ "creation": "2026-03-06 18:15:16.456350",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Item",
+ "enabled": 1,
+ "event": "Value Change",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<p>O item {{ doc.item_name }} ({{ doc.item_code }}) est\u00e1 h\u00e1 mais de 90 dias em estoque.</p>\n\n<p>\n    \n    A\u00e7\u00f5es sugeridas:\n   - Verificar condi\u00e7\u00e3o do item\n   - Considerar promo\u00e7\u00e3o\n   - Contatar consignante para devolu\u00e7\u00e3o\n   - Avaliar necessidade de descarte\n   \n</p>\n",
+ "message_type": "HTML",
+ "modified": "2026-03-29 21:09:41.592717",
+ "modified_by": "Administrator",
+ "module": "Erp Brecho",
+ "name": "Alerta: Itens h\u00e1 mais de 90 dias em estoque",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "cc": "luacabom@gmail.com",
+   "receiver_by_role": "Gerente"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "sender": "Luacabom",
+ "sender_email": "luacabom@gmail.com",
+ "subject": "Alerta: Itens h\u00e1 mais de 90 dias em estoque",
+ "value_changed": "custom_dias_em_estoque"
+}

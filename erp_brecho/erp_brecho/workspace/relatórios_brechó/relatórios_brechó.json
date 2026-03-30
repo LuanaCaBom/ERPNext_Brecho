@@ -1,0 +1,216 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"PncN8wH7i0\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Relat\u00f3rios Brech\u00f3</span>\",\"col\":12}},{\"id\":\"WtYc-xiyQF\",\"type\":\"card\",\"data\":{\"card_name\":\"Relat\u00f3rios de Vendas\",\"col\":5}},{\"id\":\"ygw8voT8E0\",\"type\":\"card\",\"data\":{\"card_name\":\"Relat\u00f3rios de Estoque\",\"col\":5}},{\"id\":\"BlsMEswNm2\",\"type\":\"card\",\"data\":{\"card_name\":\"Relat\u00f3rios Financeiros\",\"col\":5}},{\"id\":\"gEnYmEWZDk\",\"type\":\"card\",\"data\":{\"card_name\":\"Relat\u00f3rios Customizados\",\"col\":4}},{\"id\":\"fESRm4ziDl\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"9jpOFmmTcN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"An\u00e1lise de vendas\",\"col\":3}},{\"id\":\"3Y7AVaHG1g\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Saldo em Estoque\",\"col\":3}},{\"id\":\"tyfib9D-3n\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Comiss\u00f5es a Pagar\",\"col\":3}}]",
+ "creation": "2026-03-05 09:56:10.768389",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "file",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Relat\u00f3rios Brech\u00f3",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Relat\u00f3rios Customizados",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Comiss\u00f5es a Pagar",
+   "link_count": 0,
+   "link_to": "Comiss\u00f5es a Pagar",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Estoque por Categoria",
+   "link_count": 0,
+   "link_to": "Estoque por Categoria",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Relat\u00f3rios de Estoque",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Saldo em Estoque",
+   "link_count": 0,
+   "link_to": "Stock Balance",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Raz\u00e3o do Estoque",
+   "link_count": 0,
+   "link_to": "Stock Ledger",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Resumo Total do Estoque",
+   "link_count": 0,
+   "link_to": "Total Stock Summary",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Envelhecimento do Estoque",
+   "link_count": 0,
+   "link_to": "Stock Ageing",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Relat\u00f3rios Financeiros",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Resumo Raz\u00e3o de Clientes",
+   "link_count": 0,
+   "link_to": "Customer Ledger Summary",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Contas a Receber",
+   "link_count": 0,
+   "link_to": "Accounts Receivable",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Relat\u00f3rios de Vendas",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "An\u00e1lise de Vendas",
+   "link_count": 0,
+   "link_to": "Sales Analytics",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Cadastro de Vendas",
+   "link_count": 0,
+   "link_to": "Sales Register",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Registro POS",
+   "link_count": 0,
+   "link_to": "POS Register",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "POS Invoice",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Registro de Vendas por Item",
+   "link_count": 0,
+   "link_to": "Item-wise Sales Register",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-03-29 21:23:31.949131",
+ "modified_by": "Administrator",
+ "module": "Erp Brecho",
+ "name": "Relat\u00f3rios Brech\u00f3",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Administrator"
+  }
+ ],
+ "sequence_id": 28.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Comiss\u00f5es a Pagar",
+   "link_to": "Comiss\u00f5es a Pagar",
+   "report_ref_doctype": "POS Invoice",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "An\u00e1lise de vendas",
+   "link_to": "Sales Analytics",
+   "report_ref_doctype": "Sales Order",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Saldo em Estoque",
+   "link_to": "Stock Balance",
+   "report_ref_doctype": "Stock Ledger Entry",
+   "type": "Report"
+  }
+ ],
+ "title": "Relat\u00f3rios Brech\u00f3"
+}

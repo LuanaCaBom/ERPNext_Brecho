@@ -1,0 +1,168 @@
+{
+ "charts": [
+  {
+   "chart_name": "Itens por Consignante",
+   "label": "Itens por Consignante"
+  }
+ ],
+ "content": "[{\"id\":\"H9I7-E2uOB\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Consigna\u00e7\u00e3o</span>\",\"col\":12}},{\"id\":\"lHGEFJiRWJ\",\"type\":\"card\",\"data\":{\"card_name\":\"Consignantes\",\"col\":4}},{\"id\":\"7Dl7pmshWx\",\"type\":\"card\",\"data\":{\"card_name\":\"Itens em Consigna\u00e7\u00e3o\",\"col\":4}},{\"id\":\"OE-kEy7t7W\",\"type\":\"card\",\"data\":{\"card_name\":\"Pagamentos\",\"col\":4}},{\"id\":\"dx1DpFxPRt\",\"type\":\"card\",\"data\":{\"card_name\":\"Relat\u00f3rios\",\"col\":4}},{\"id\":\"gKtVy1BoJv\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"tH8E1BwJbC\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Itens por Consignante\",\"col\":12}},{\"id\":\"Y372flouT3\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total de Consignantes\",\"col\":4}},{\"id\":\"7tPIoVvi-c\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Comiss\u00f5es Pagas\",\"col\":4}},{\"id\":\"PqBKZ5s7LT\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Comiss\u00f5es N\u00e3o Pagas\",\"col\":4}},{\"id\":\"ZfdInsqLjS\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"yDQjaVxpse\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Novo Consignante\",\"col\":3}},{\"id\":\"qNOgfyty3c\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Item Consignado\",\"col\":3}},{\"id\":\"JZLOw9h9kY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Comiss\u00f5es a Pagar\",\"col\":3}},{\"id\":\"mzllgleEiA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Pagar Comiss\u00e3o\",\"col\":3}}]",
+ "creation": "2026-03-05 09:32:47.104097",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "folder-open",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Consigna\u00e7\u00e3o",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Relat\u00f3rios",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "POS Invoice",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Comiss\u00f5es a Pagar",
+   "link_count": 0,
+   "link_to": "Comiss\u00f5es a Pagar",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "description": "Clientes Consignantes",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Consignantes",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Clientes",
+   "link_count": 0,
+   "link_to": "Customer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "description": "Produtos Consignados",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Itens em Consigna\u00e7\u00e3o",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Item",
+   "link_count": 0,
+   "link_to": "Item",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "description": "Pagamentos de Comiss\u00f5es",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Pagamentos",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Entrada de Pagamento",
+   "link_count": 0,
+   "link_to": "Payment Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-03-29 21:23:56.044379",
+ "modified_by": "Administrator",
+ "module": "Erp Brecho",
+ "name": "Consigna\u00e7\u00e3o",
+ "number_cards": [
+  {
+   "label": "Total de Consignantes",
+   "number_card_name": "Total de Consignantes"
+  },
+  {
+   "label": "Comiss\u00f5es Pagas",
+   "number_card_name": "Comiss\u00f5es Pagas"
+  },
+  {
+   "label": "Comiss\u00f5es N\u00e3o Pagas",
+   "number_card_name": "Comiss\u00f5es N\u00e3o Pagas"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Gerente"
+  },
+  {
+   "role": "Administrator"
+  }
+ ],
+ "sequence_id": 27.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "New",
+   "label": "Novo Consignante",
+   "link_to": "Customer",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "New",
+   "label": "Item Consignado",
+   "link_to": "Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Comiss\u00f5es a Pagar",
+   "link_to": "Comiss\u00f5es a Pagar",
+   "report_ref_doctype": "POS Invoice",
+   "type": "Report"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "New",
+   "label": "Pagar Comiss\u00e3o",
+   "link_to": "Payment Entry",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Consigna\u00e7\u00e3o"
+}

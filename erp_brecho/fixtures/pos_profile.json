@@ -1,0 +1,89 @@
+[
+ {
+  "account_for_change_amount": null,
+  "allow_discount_change": 1,
+  "allow_partial_payment": 0,
+  "allow_rate_change": 1,
+  "applicable_for_users": [
+   {
+    "default": 0,
+    "parent": "Caixa Brechó",
+    "parentfield": "applicable_for_users",
+    "parenttype": "POS Profile",
+    "user": "Administrator"
+   }
+  ],
+  "apply_discount_on": "Grand Total",
+  "auto_add_item_to_cart": 0,
+  "campaign": null,
+  "company": "Gestão Empresarial",
+  "company_address": null,
+  "cost_center": null,
+  "country": "Brazil",
+  "currency": "BRL",
+  "customer": null,
+  "customer_groups": [],
+  "disable_grand_total_to_default_mop": 0,
+  "disable_rounded_total": 0,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "POS Profile",
+  "expense_account": null,
+  "hide_images": 0,
+  "hide_unavailable_items": 0,
+  "ignore_pricing_rule": 0,
+  "income_account": null,
+  "item_groups": [],
+  "letter_head": null,
+  "modified": "2026-02-12 08:19:40.080566",
+  "name": "Caixa Brechó",
+  "payments": [
+   {
+    "allow_in_returns": 0,
+    "default": 1,
+    "mode_of_payment": "Cash",
+    "parent": "Caixa Brechó",
+    "parentfield": "payments",
+    "parenttype": "POS Profile"
+   },
+   {
+    "allow_in_returns": 0,
+    "default": 0,
+    "mode_of_payment": "Credit Card",
+    "parent": "Caixa Brechó",
+    "parentfield": "payments",
+    "parenttype": "POS Profile"
+   },
+   {
+    "allow_in_returns": 0,
+    "default": 0,
+    "mode_of_payment": "Debit Card",
+    "parent": "Caixa Brechó",
+    "parentfield": "payments",
+    "parenttype": "POS Profile"
+   },
+   {
+    "allow_in_returns": 0,
+    "default": 0,
+    "mode_of_payment": "PIX",
+    "parent": "Caixa Brechó",
+    "parentfield": "payments",
+    "parenttype": "POS Profile"
+   }
+  ],
+  "print_format": null,
+  "print_receipt_on_order_complete": 0,
+  "project": null,
+  "select_print_heading": null,
+  "selling_price_list": "Preço Varejo",
+  "tax_category": null,
+  "taxes_and_charges": null,
+  "tc_name": null,
+  "update_stock": 1,
+  "validate_stock_on_save": 1,
+  "warehouse": "Loja Brechó - GE",
+  "write_off_account": "Custos dos Produtos Vendidos em Geral - GE",
+  "write_off_cost_center": "Main - GE",
+  "write_off_limit": 1.0
+ }
+]

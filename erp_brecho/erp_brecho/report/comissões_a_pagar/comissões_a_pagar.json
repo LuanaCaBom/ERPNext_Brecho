@@ -1,0 +1,53 @@
+{
+ "add_total_row": 0,
+ "add_translate_data": 0,
+ "columns": [],
+ "creation": "2026-02-19 09:13:32.559762",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 11,
+ "is_standard": "Yes",
+ "letterhead": null,
+ "modified": "2026-03-29 21:09:07.994272",
+ "modified_by": "Administrator",
+ "module": "Erp Brecho",
+ "name": "Comiss\u00f5es a Pagar",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT \r\n    si.name AS \"Documento:Link/POS Invoice:150\",\r\n    si.posting_date AS \"Data:Date:100\",\r\n    si.customer AS \"Cliente:Data:150\",\r\n    sii.item_name AS \"Item:Data:200\",\r\n    sii.amount AS \"Valor Venda:Currency:120\",\r\n    i.custom_consignante AS \"Consignante:Data:150\",\r\n    i.`custom_percentual_de_comiss\u00e3o` AS \"%% Comiss\u00e3o:Percent:100\",\r\n    (sii.amount * i.`custom_percentual_de_comiss\u00e3o` / 100) AS \"Valor Comiss\u00e3o:Currency:120\",\r\n    CASE WHEN i.`custom_comiss\u00e3o_paga` = 1 THEN 'Paga' ELSE 'A Pagar' END AS \"Status:Data:100\"\r\nFROM `tabPOS Invoice` si\r\nINNER JOIN `tabPOS Invoice Item` sii ON sii.parent = si.name\r\nINNER JOIN `tabItem` i ON sii.item_code = i.name\r\nWHERE si.docstatus = 1\r\n    AND i.custom_origem = 'Consigna\u00e7\u00e3o'\r\n    AND (i.`custom_comiss\u00e3o_paga` = 0 OR i.`custom_comiss\u00e3o_paga` IS NULL)\r\n\r\nUNION ALL\r\n\r\nSELECT \r\n    si.name AS \"Documento:Link/Sales Invoice:150\",\r\n    si.posting_date AS \"Data:Date:100\",\r\n    si.customer AS \"Cliente:Data:150\",\r\n    sii.item_name AS \"Item:Data:200\",\r\n    sii.amount AS \"Valor Venda:Currency:120\",\r\n    i.custom_consignante AS \"Consignante:Data:150\",\r\n    i.`custom_percentual_de_comiss\u00e3o` AS \"%% Comiss\u00e3o:Percent:100\",\r\n    (sii.amount * i.`custom_percentual_de_comiss\u00e3o` / 100) AS \"Valor Comiss\u00e3o:Currency:120\",\r\n    CASE WHEN i.`custom_comiss\u00e3o_paga` = 1 THEN 'Paga' ELSE 'A Pagar' END AS \"Status:Data:100\"\r\nFROM `tabSales Invoice` si\r\nINNER JOIN `tabSales Invoice Item` sii ON sii.parent = si.name\r\nINNER JOIN `tabItem` i ON sii.item_code = i.name\r\nWHERE si.docstatus = 1\r\n    AND i.custom_origem = 'Consigna\u00e7\u00e3o'\r\n    AND (i.`custom_comiss\u00e3o_paga` = 0 OR i.`custom_comiss\u00e3o_paga` IS NULL)\r\n\r\nORDER BY `Data:Date:100` DESC",
+ "ref_doctype": "POS Invoice",
+ "report_name": "Comiss\u00f5es a Pagar",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "Item Manager"
+  },
+  {
+   "role": "Stock Manager"
+  },
+  {
+   "role": "Stock User"
+  },
+  {
+   "role": "Sales User"
+  },
+  {
+   "role": "Purchase User"
+  },
+  {
+   "role": "Maintenance User"
+  },
+  {
+   "role": "Accounts User"
+  },
+  {
+   "role": "Manufacturing User"
+  },
+  {
+   "role": "Desk User"
+  }
+ ],
+ "timeout": 0
+}
