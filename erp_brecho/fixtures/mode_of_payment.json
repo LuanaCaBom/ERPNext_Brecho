@@ -10,6 +10,26 @@
   "type": "Bank"
  },
  {
+  "accounts": [],
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "Wire Transfer",
+  "modified": "2025-08-27 10:30:44.848038",
+  "name": "Wire Transfer",
+  "type": "Bank"
+ },
+ {
+  "accounts": [],
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "Bank Draft",
+  "modified": "2025-08-27 10:30:44.854255",
+  "name": "Bank Draft",
+  "type": "Bank"
+ },
+ {
   "accounts": [
    {
     "company": "Gestão Empresarial",

@@ -1,5 +1,31 @@
 [
  {
+  "buying": 1,
+  "countries": [],
+  "currency": "BRL",
+  "docstatus": 0,
+  "doctype": "Price List",
+  "enabled": 1,
+  "modified": "2025-08-27 10:31:26.634776",
+  "name": "Standard Buying",
+  "price_list_name": "Standard Buying",
+  "price_not_uom_dependent": 0,
+  "selling": 0
+ },
+ {
+  "buying": 0,
+  "countries": [],
+  "currency": "BRL",
+  "docstatus": 0,
+  "doctype": "Price List",
+  "enabled": 1,
+  "modified": "2025-08-27 10:34:32.261228",
+  "name": "Standard Selling",
+  "price_list_name": "Standard Selling",
+  "price_not_uom_dependent": 0,
+  "selling": 1
+ },
+ {
   "buying": 0,
   "countries": [
    {

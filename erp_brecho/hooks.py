@@ -252,6 +252,7 @@ fixtures = [
     "Role",
     "Custom DocPerm",
     "Website Settings",
+    "Webshop Settings",
     "Website Theme",
     "Selling Settings",
     "Stock Settings",
